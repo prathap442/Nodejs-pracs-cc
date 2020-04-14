@@ -101,3 +101,20 @@ More on require
   If there is no file by name mangoes.js then what node does is it check for a folder by name mangoes and the loads the file index.js in the mangoes folder 
   > dir structure it looks is mangoes/index.js
 ```
+
+
+> Module Patterns
+
+##### Pattern1
+* Replacing the module.exports not with any object but with the function directly .
+```
+#greet1.js
+module.exports = function(){
+  return "allah"
+}
+
+#in app.js
+var greet1 = require('./greet1');
+console.log(greet1());//allah
+```
+

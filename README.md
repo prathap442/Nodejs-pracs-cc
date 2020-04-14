@@ -75,5 +75,29 @@ What is pass by value and pass by reference?
 
   module.exports is what the require function return value would be 
 
-  this works because it is the function in which your code is wrapped and that function is passed with these arguments
+  this works because it is the function in which your code is wrapped and that function is passed with these arguments as in the require the path
+```
+
+
+What is JSON? And what is it inspired by?
+
+JSON stands for the JavaScriptObjectNotation(JSON) and this is being inspired by the Javascript object literals which are nothing but the key value pairs. And these json objects can be used to pass the data from one object to the other and they can be used to pass the data from one server to the other 
+
+Here node also tries to understand the JSON object notation and then it can parse the things also .
+
+```
+ JSON(JavaScriptObjectNotation)
+ example
+ {
+   "firstname": "mohan",
+   "lastname": "prathap"
+ }
+```
+
+
+More on require
+```
+  require("./mangoes")
+  If there is no file by name mangoes.js then what node does is it check for a folder by name mangoes and the loads the file index.js in the mangoes folder 
+  > dir structure it looks is mangoes/index.js
 ```

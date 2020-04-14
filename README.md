@@ -118,3 +118,22 @@ var greet1 = require('./greet1');
 console.log(greet1());//allah
 ```
 
+
+
+
+//Now we need to understand the difference between the module.exports and the exports 
+
+#sample1.js
+```
+exports = function(){
+
+}
+module.exports.greet = function(){
+  console.log("This is the greeting");
+}
+```
+
+#sample2.js
+```
+var 
+```

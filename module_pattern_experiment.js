@@ -33,5 +33,8 @@ Changed the greeting object
 var greet4 = require("./greet4");
 console.log(new greet4());//this is for the sake of the generating of the new instance of the greet4 object
 
-var greet5 = require("./greet5");
+var greet5 = require("./greet5");//var greeting exists in the greet5.js
 console.log(greet5.greet());
+//the greet5.js file exists and a variable also exist by name greeting that cannot be accessed in this file
+// the variable greet5 can only be accessed in the greet5 and it scope can't be made available and 
+// only the function can be made available here .
